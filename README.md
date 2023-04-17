@@ -8,7 +8,7 @@
 
 ### Daytime-to-Nightime Change
 
-![Alt Text](https://media.giphy.com/media/1hMjJILpxoWpQad37L/giphy.gif)
+![](home_temp_analysis_files/figure-markdown_github/set_it.png)
 
 
 ### Nightime Temperature Preference
