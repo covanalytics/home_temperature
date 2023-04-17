@@ -7,6 +7,7 @@
 ### Daytime Temperature Preference
 
 ### Daytime-to-Nightime Change
+
 ![](https://media.giphy.com/media/1hMjJILpxoWpQad37L/giphy.gif)
 
 
