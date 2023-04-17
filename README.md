@@ -7,7 +7,7 @@
 ### Daytime Temperature Preference
 
 ### Daytime-to-Nightime Change
-![<iframe src="https://giphy.com/embed/1hMjJILpxoWpQad37L" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/billy-mayes-1hMjJILpxoWpQad37L">via GIPHY</a></p>]
+![](https://media.giphy.com/media/1hMjJILpxoWpQad37L/giphy.gif)
 
 
 ### Nightime Temperature Preference
