@@ -5,22 +5,22 @@
 url_survey <- 'https://docs.google.com/spreadsheets/d/1tkMVLbG8fxVcSGqr6WyPJwyHY-YOEN0BDbpGfByAiKw/edit?usp=sharing'
 therm_survey <- gsheet2tbl(url_survey)
 names(therm_survey)[2] <- "Daytime"
-names(therm_survey)[3] <- "Nightime"
+names(therm_survey)[3] <- "Nighttime"
 
 therm_survey <- therm_survey %>%
   select(c(2:3))%>%
   mutate(Daytime_Base = as.numeric(str_extract(Daytime, "^\\d{2}")),
-         Nightime_Base = as.numeric(str_extract(Nightime, "^\\d{2}")),
-         Difference = Nightime_Base - Daytime_Base,
+         Nighttime_Base = as.numeric(str_extract(Nighttime, "^\\d{2}")),
+         Difference = Nighttime_Base - Daytime_Base,
          Change = case_when(
            Difference < 0 ~ "Coolor at Nights",
            Difference > 0 ~ "Warmer at Nights",
            Difference == 0 ~ "Same Temperature"),
          Daytime = paste(Daytime, "", sep = " "),
-         Nightime = paste(Nightime, "", sep = ""))%>%
+         Nighttime = paste(Nighttime, "", sep = ""))%>%
   rename("Daytime Temp. Preference"= "Daytime",
-         "Nightime Temp. Preference"= "Nightime",
-         "Daytime-to-Nightime Change"= "Change")
+         "Nighttime Temp. Preference"= "Nighttime",
+         "Daytime-to-Nighttime Change"= "Change")
 
 
 df <- therm_survey[, c(1, 6, 2)]
@@ -30,7 +30,7 @@ TotalCount = nrow(df)
 
 # Step 1
 df <- df %>%
-  make_long(`Daytime Temp. Preference`, `Daytime-to-Nightime Change`, `Nightime Temp. Preference`)
+  make_long(`Daytime Temp. Preference`, `Daytime-to-Nighttime Change`, `Nighttime Temp. Preference`)
 
 
 # Step 2
@@ -47,7 +47,7 @@ dagg <- dagg%>%
 df2 <- merge(df, dagg, by.x = 'node', by.y = 'node', all.x = TRUE)
 
 labels <- labs(title = "Home Thermostat Temperature Range",
-               subtitle = "Daytime and Nightime Preferences--Spring and Summer Heat",
+               subtitle = "Daytime and Nighttime Preferences--Spring and Summer Heat",
                caption = "todd sink")
 
 # Create chart

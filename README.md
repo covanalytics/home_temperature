@@ -10,8 +10,8 @@ questions regarding the heat of Spring and Summer:
 1.  What is the ideal **DAYTIME** thermostat temperature range (degrees
     Fahrenheit) for your home?
 
-2.  What is the ideal **NIGHTIME** thermostat temperature range (degrees
-    Fahrenheit) for your home?
+2.  What is the ideal **NIGHTTIME** thermostat temperature range
+    (degrees Fahrenheit) for your home?
 
 A total of 81 responses were received.
 
@@ -26,13 +26,13 @@ selections made for the preferred **DAYTIME** temperature range. The
 labels display the option and the number and percentage of people who
 made the choice.
 
-**Daytime-to-Nightime Change** The center of the graph shows the change,
-if any, that was made between preferred daytime and nightime temperature
-ranges. The size of the bars are proportional to the number of
-responses.
+**Daytime-to-Nighttime Change** The center of the graph shows the
+change, if any, that was made between preferred daytime and nighttime
+temperature ranges. The size of the bars are proportional to the number
+of responses.
 
-**Nightime Temp. Preference** The right side of the graph shows the
-selections made for the preferred **NIGHTIME** temperature range. The
+**Nighttime Temp. Preference** The right side of the graph shows the
+selections made for the preferred **NIGHTTIME** temperature range. The
 labels display the option and the number and percentage of people who
 made the choice.
 
@@ -47,13 +47,13 @@ by 23.5% of the respondents. The remaining preferences are as follows:
 -   63-65 (2.5%)
 -   60-62 (2.5%)
 
-**Daytime/Nightime Change:** The majority of respondents, 59.3%, prefer
-to leave the thermostat setting the same for the daytime and nightime.
+**Daytime/Nighttime Change:** The majority of respondents, 59.3%, prefer
+to leave the thermostat setting the same for the daytime and nighttime.
 Approximately 37% prefer the home temperature to be cooler at nights and
 3.7% prefer it to be warmer at nights.
 
-**Nightime:** There is a near tie for the most preferred temperature
-range during the nightime. The temperature range 69-71 is the most
+**Nighttime:** There is a near tie for the most preferred temperature
+range during the nighttime. The temperature range 69-71 is the most
 preferred with 37% of responses. The temperature range 66-68 is a close
 second with 35.8% of responses. The remaining preferences are as
 follows:
