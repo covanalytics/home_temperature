@@ -1,6 +1,7 @@
 ## README
 
 
+
 ## Overview
 
 A Google Survey was distributed on Facebook asking for responses to two
@@ -17,7 +18,8 @@ A total of 81 responses were received.
 ### Graph Interpretation
 
 The graph provided at the bottom of this page shows the results of the
-two question survey.
+two question survey. This section provides a quick overview on how to
+interpret the graph.
 
 **Daytime Temp. Preference:** The left side of the graph shows the
 selections made for the preferred **DAYTIME** temperature range. The
