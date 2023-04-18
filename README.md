@@ -1,18 +1,21 @@
 ## README
 
 
+
 ## Overview
 
+### Graph Interpretation
 
-### Daytime Temperature Preference
+The graph provided below shows the results of the two quetions survey
+asking about the preferred daytime and nightime temperature range for
+homes during the heat of Spring and Summer.
 
-### Daytime-to-Nightime Change
+    **Daytime Temp. Preference** The 
 
-![](home_temp_analysis_files/figure-markdown_github/set_it.png)
+## Home Temperature Preference
 
-
-### Nightime Temperature Preference
-
+**Daytime:** The most preferred temperature range during the daytime
+time
 
 
 
